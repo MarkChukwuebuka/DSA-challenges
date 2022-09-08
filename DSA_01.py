@@ -3,27 +3,23 @@ Link to DSA challenge - https://www.hackerrank.com/challenges/2d-array/problem?f
 
 """
 
+#collects user input
+arr = input()
+# changes the user input into a list
+arr = list(map(int, arr.split(" ")))
+# divides the list into equal smaller lists
+arr = [arr[i:i + 6] for i in range(0, len(arr), 6)]
 
-row0 = list(map(int, input().split(" ")))
-row1 = list(map(int, input().split(" ")))
-row2 = list(map(int, input().split(" ")))
-row3 = list(map(int, input().split(" ")))
-row4 = list(map(int, input().split(" ")))
-row5 = list(map(int, input().split(" ")))
-
-arr = [row0, row1, row2, row3, row4, row5]
-
-def hour_glass(arr):
-
-    max_arr = []
+# empty list to hold sums of each array   
+sums = []
 
 
-    for x in range(0,4):
-        for y in range(0,4):
-            total = 0
-            total += arr[x][y] + arr[x][y+1] + arr[x][y+2]
-            total += arr[x+1][y+1]
-            total += arr[x+2][y] + arr[x+2][y+1] + arr[x+2][y+2]
-            max_arr.append(total)
+for x in range(0,4):
+    for y in range(0,4):
+        total = 0
+        total += arr[x][y] + arr[x][y+1] + arr[x][y+2]
+        total += arr[x+1][y+1]
+        total += arr[x+2][y] + arr[x+2][y+1] + arr[x+2][y+2]
+        sums.append(total)
 
-    return max(max_arr)
+print(max(sums))

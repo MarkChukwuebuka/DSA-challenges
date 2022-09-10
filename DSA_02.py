@@ -5,9 +5,9 @@ Link to challenge: https://www.hackerrank.com/challenges/arrays-ds/problem?isFul
 
 def reversedlist(a:list) -> list:
     
-    reversedlist = []
+    newlist = []
 
     for i in a:
-        reversedlist.insert(0, i)
+        newlist.insert(0, i)
 
-    return reversedlist
+    return newlist

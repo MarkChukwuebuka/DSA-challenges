@@ -16,10 +16,13 @@ sums = []
 
 for x in range(0,4):
     for y in range(0,4):
-        total = 0
-        total += arr[x][y] + arr[x][y+1] + arr[x][y+2]
-        total += arr[x+1][y+1]
-        total += arr[x+2][y] + arr[x+2][y+1] + arr[x+2][y+2]
+        
+        top = arr[x][y] + arr[x][y+1] + arr[x][y+2]
+        middle = arr[x+1][y+1]
+        bottom = arr[x+2][y] + arr[x+2][y+1] + arr[x+2][y+2]
+
+        total = top + middle + bottom
+
         sums.append(total)
 
 print(max(sums))

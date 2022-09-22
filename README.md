@@ -5,3 +5,5 @@
 2. [Arrays Reversing - DS Challenge](https://www.hackerrank.com/challenges/arrays-ds/problem?isFullScreen=false)
 
 3. [Arrays Shifting - DS Challenge](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)
+
+4. [Substring - DS Challenge](https://www.hackerrank.com/challenges/two-strings/problem?h_l=interview&isFullScreen=true&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=dictionaries-hashmaps)

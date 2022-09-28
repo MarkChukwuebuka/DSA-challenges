@@ -11,3 +11,5 @@
 5. [Bribes - DS Challenge]https://www.hackerrank.com/challenges/new-year-chaos/problem?filter=python3&filter_on=language&h_l=interview&h_r=next-challenge&h_v=zen&isFullScreen=true&page=1&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
 
 6. [Max Toys - DS Challenge]https://www.hackerrank.com/challenges/mark-and-toys/problem
+
+7. [Greedy Florist - DS Challenge]https://www.hackerrank.com/challenges/greedy-florist/problem

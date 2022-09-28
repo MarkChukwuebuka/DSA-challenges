@@ -4,9 +4,6 @@ https://www.hackerrank.com/challenges/mark-and-toys/problem
 
 """
 
-
-
-
 def max_toys(prices:list, k:int) -> int:
     
     #sort the prices list
@@ -17,7 +14,7 @@ def max_toys(prices:list, k:int) -> int:
 
     # iterate through the list
     for price in prices:
-        # add price to total sum
+        # add each price to total sum
         total_price += price
         # if total_price isn't more than budget, update toy_count then add the next price 
         if total_price > k:

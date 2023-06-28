@@ -12,3 +12,16 @@ def shift_list(a:list, d:int) -> list:
         a.append(a.pop(0))
 
     return a
+
+
+"""
+A better and more opptimized way to go
+
+"""
+
+def shift_list(a:list, d:int) -> list:
+    
+    d = d%len(a)
+    arr = arr[d:] + arr[:d]
+
+    return a
